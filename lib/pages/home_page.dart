@@ -17,6 +17,7 @@ class _HomePageState extends State<HomePage> {
       body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) => [
                 MySilverAppBar(
+                  title: Text("title"),
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.end,
                     children: [
@@ -31,7 +32,6 @@ class _HomePageState extends State<HomePage> {
                       // description box
                     ],
                   ),
-                  title: Text("title"),
                 ),
               ],
           body: Container(
