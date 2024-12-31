@@ -10,7 +10,7 @@ class Restaurant extends ChangeNotifier {
       name: "Cheese Burger",
       description:
           "A juicy beef patty with melted cheddar, lettuce, tomato, and a hint of onion and pickle.",
-      imagePath: "lib/images/burger/cheeseburger.jpeg",
+      imagePath: "lib/images/burgers/cheeseburger.jpeg",
       price: 0.99,
       category: FoodCategory.burgers,
       availableAddons: [
@@ -23,7 +23,7 @@ class Restaurant extends ChangeNotifier {
       name: "Chicken Burger",
       description:
           "Smoky BBQ sauce, crispy bacon, and onion rings make this burger a savory delight",
-      imagePath: "lib/images/burger/chikenburger.jpeg",
+      imagePath: "lib/images/burgers/chickenburger.jpeg",
       price: 10.99,
       category: FoodCategory.burgers,
       availableAddons: [
@@ -36,7 +36,7 @@ class Restaurant extends ChangeNotifier {
       name: "Hamburger",
       description:
           "Juicy ham, tangy mustard, and melted Swiss cheese come together in this irresistible burger classic.",
-      imagePath: "lib/images/burger/hamburger.jpeg",
+      imagePath: "lib/images/burgers/hamburger.jpeg",
       price: 9.99,
       category: FoodCategory.burgers,
       availableAddons: [
@@ -49,7 +49,7 @@ class Restaurant extends ChangeNotifier {
       name: "Onion Burger",
       description:
           "Caramelized onions, zesty aioli, and gooey cheddar make this burger an onion lover’s dream.",
-      imagePath: "lib/images/burger/onionburger.jpeg",
+      imagePath: "lib/images/burgers/onionburger.jpeg",
       price: 9.49,
       category: FoodCategory.burgers,
       availableAddons: [
@@ -62,7 +62,7 @@ class Restaurant extends ChangeNotifier {
       name: "Turkey Burger",
       description:
           "Herbed turkey patty, creamy avocado, and a touch of cranberry sauce create a flavorful twist on this turkey burger.",
-      imagePath: "lib/images/burger/turkeyburger.jpeg",
+      imagePath: "lib/images/burgers/turkeyburger.jpeg",
       price: 0.99,
       category: FoodCategory.burgers,
       availableAddons: [
@@ -330,7 +330,7 @@ class Restaurant extends ChangeNotifier {
       name: "Raspberry Lemonade",
       description:
           "Refreshing raspberry lemonade, with its tangy citrus twist, sweet berry infusion, and crisp finish, delivers a burst of vibrant flavor that's both tart and invigorating.",
-      imagePath: "lib/images/drinks/raspberrylemonade.jpeg",
+      imagePath: "lib/images/drinks/raspberry lemonade.jpeg",
       price: 7.99,
       category: FoodCategory.drinks,
       availableAddons: [
